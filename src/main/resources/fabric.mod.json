@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "backrooms-mod",
+	"version": "${version}",
+	"name": "Backrooms Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/backrooms-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.apcehv.backrooms.BackroomsMod"
+		],
+		"fabric-datagen": [
+			"net.apcehv.backrooms.BackroomsModDataGenerator"
+		],
+        "client": [
+          "net.apcehv.backrooms.BackroomsModClient"
+        ]
+	},
+	"mixins": [
+		"backrooms-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
