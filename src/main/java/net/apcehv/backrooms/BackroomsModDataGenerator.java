@@ -10,6 +10,6 @@ import java.util.logging.Logger;
 public class BackroomsModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-        int a = 0;
+
 	}
 }
