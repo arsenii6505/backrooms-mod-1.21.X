@@ -1,3 +1,5 @@
 {
-  "item.backrooms-mod.almod_water": "Миндальная вода"
+  "item.backrooms-mod.almond_water": "Миндальная вода",
+
+  "block.backrooms-mod.level0_wall": "Стена с уровня 0"
 }
