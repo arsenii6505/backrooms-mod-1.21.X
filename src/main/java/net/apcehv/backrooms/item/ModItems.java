@@ -6,6 +6,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 
@@ -19,7 +21,7 @@ public class ModItems {
 
     // добавить на вкладку креатива
     public static void registerModItems(){
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries ->{
+        ItemGroupEvents.modifyEntriesEvent(ModItemGroups.BACKROOMS_ITEMS).register(entries ->{
             entries.add(AlmondWater);
         });
     }

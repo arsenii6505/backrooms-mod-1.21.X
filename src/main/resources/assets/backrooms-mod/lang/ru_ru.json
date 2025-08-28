@@ -1,5 +1,8 @@
 {
   "item.backrooms-mod.almond_water": "Миндальная вода",
 
-  "block.backrooms-mod.level0_wall": "Стена с уровня 0"
+  "block.backrooms-mod.level0_wall": "Стена с уровня 0",
+
+  "itemgroup.backrooms-mod.backrooms_items": "Объекты закулисья",
+  "itemgroup.backrooms-mod.backrooms_blocks": "Блоки закулисья"
 }

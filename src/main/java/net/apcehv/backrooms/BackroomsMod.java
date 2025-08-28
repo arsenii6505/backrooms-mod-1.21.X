@@ -1,6 +1,7 @@
 package net.apcehv.backrooms;
 
 import net.apcehv.backrooms.block.ModBlocks;
+import net.apcehv.backrooms.item.ModItemGroups;
 import net.apcehv.backrooms.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class BackroomsMod implements ModInitializer {
 	public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
 	}
 }

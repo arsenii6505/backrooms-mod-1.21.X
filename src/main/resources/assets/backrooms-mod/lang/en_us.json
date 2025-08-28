@@ -1,4 +1,8 @@
 {
   "item.backrooms-mod.almond_water": "Almond Water",
-  "block.backrooms-mod.level0_wall": "Wall from level 0"
+
+  "block.backrooms-mod.level0_wall": "Wall from level 0",
+
+  "itemgroup.backrooms-mod.backrooms_items": "objects of backrooms",
+  "itemgroup.backrooms-mod.backrooms_blocks": "blocks of backrooms"
 }
