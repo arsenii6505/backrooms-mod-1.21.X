@@ -1,5 +1,6 @@
 package net.apcehv.backrooms.item;
 
+import net.apcehv.backrooms.item.custom.AlmondWaterItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.apcehv.backrooms.BackroomsMod;
 import net.minecraft.item.Item;
@@ -12,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-    public static final Item AlmondWater = registerItem("almond_water", new Item(new Item.Settings()));
+    public static final Item AlmondWater = registerItem("almond_water", new AlmondWaterItem(new Item.Settings()));
 
     // вспомогательный метод для регистрации объекта
     private static Item registerItem(String name, Item item){
