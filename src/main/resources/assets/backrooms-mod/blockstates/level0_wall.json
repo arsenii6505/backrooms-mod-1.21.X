@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "backrooms-mod:block/level0_wall",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "backrooms-mod:block/level0_wall"
+    },
+    "axis=z": {
+      "model": "backrooms-mod:block/level0_wall",
+      "x": 90
     }
   }
 }
